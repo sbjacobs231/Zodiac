@@ -1,9 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+html * {
+	font-family: 'Oswald', sans-serif;
+}
+
 header {
 	text-align: center;
+	font-size: 25px;
 }
 
 .box {
 	width: 300px;
+	height: 20px;
+	font-size: 15px;
+	border-radius: 5px;
 }
 
 section {
@@ -11,10 +21,18 @@ section {
 }
 
 img {
-	width: 500px;
-	height: 500px;
+	width: 350px;
+	height: 350px;
 }
 h3 {
 	width: 800px;
 	text-align: center;
+}
+
+button {
+	background-color: #FF6D78;
+	border-radius: 5px;
+	width: 100px;
+	font-size: 15px;
+	font-color: white;
 }
